@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/white"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+     <!--   <ImageView
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:src="@drawable/img_number_verification" />  -->
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animat"
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:layout_centerInParent="true"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Verify Your Number"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
+            android:textColor="#37474F"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Please enter your mobile number to receive a verification code."
+            android:gravity="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
+            android:textColor="#666666"
+            tools:ignore="HardcodedText" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/phoneWrapper"
+                android:layout_marginBottom="12dp"
+                android:hint="Phone"
+                android:layout_below="@+id/logo">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/phone"
+                    android:maxLength="10"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+    <!--    <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/verify"
+            android:background="@drawable/btn_rounded_red"
+            android:text="CONTINUE"
+            android:textColor="@android:color/white" />  -->
+
+
+
+        <br.com.simplepass.loadingbutton.customViews.CircularProgressButton
+            android:id="@+id/verify"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VERIFY"
+            android:textColor="#fff"
+            android:background="@drawable/buton_back"
+            app:spinning_bar_width="3dp"
+            app:spinning_bar_color="#fff"
+            app:spinning_bar_padding="4dp"
+            android:layout_centerHorizontal="true"/>
+
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/no"
+            android:gravity="center"
+            android:text="NO, OTHER TIME" />
+
+    </LinearLayout>
+
+</RelativeLayout>

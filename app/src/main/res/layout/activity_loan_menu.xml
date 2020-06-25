@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     tools:context=".LoanMenu"
+       android:padding="12dp"
+     android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+        app:cardCornerRadius="3dp"
+        app:contentPadding="3dp"
+        app:cardBackgroundColor="#fff"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal">
+
+             <ImageView
+                 android:layout_width="100dp"
+                 android:layout_height="100dp"
+                 android:src="@drawable/delivery"/>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:text="Get a SCV loan easily"
+                 android:layout_marginLeft="10dp"
+                 android:textSize="20sp"
+                 android:textStyle="bold"
+                 android:layout_gravity="center"
+                 android:gravity="center_horizontal"/>
+
+         </LinearLayout>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="0.5dp"
+                android:background="#cdcdcd"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:text="APPLY"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/colorAccent"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+       <androidx.cardview.widget.CardView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           app:cardCornerRadius="3dp"
+           app:contentPadding="3dp"
+           app:cardBackgroundColor="#fff"
+           app:cardUseCompatPadding="true"
+           android:layout_marginTop="5dp">
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal">
+
+                   <ImageView
+                       android:layout_width="100dp"
+                       android:layout_height="100dp"
+                       android:src="@drawable/logistics"/>
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Get a CV loan easily"
+                       android:layout_marginLeft="10dp"
+                       android:textSize="20sp"
+                       android:textStyle="bold"
+                       android:layout_gravity="center"
+                       android:gravity="center_horizontal"/>
+
+               </LinearLayout>
+
+               <View
+                   android:layout_width="wrap_content"
+                   android:layout_height="0.5dp"
+                   android:background="#cdcdcd"
+                   android:layout_marginTop="10dp"/>
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="end"
+                   android:text="APPLY"
+                   android:layout_marginTop="5dp"
+                   android:layout_marginBottom="5dp"
+                   android:layout_marginRight="10dp"
+                   android:textColor="@color/colorAccent"/>
+
+           </LinearLayout>
+
+       </androidx.cardview.widget.CardView>
+
+       <androidx.cardview.widget.CardView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           app:cardCornerRadius="3dp"
+           app:contentPadding="3dp"
+           app:cardBackgroundColor="#fff"
+           app:cardUseCompatPadding="true"
+           android:layout_marginTop="5dp">
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal">
+
+                   <ImageView
+                       android:layout_width="100dp"
+                       android:layout_height="100dp"
+                       android:src="@drawable/bike"/>
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Get a Two wheeler loan easily"
+                       android:layout_marginLeft="10dp"
+                       android:textSize="20sp"
+                       android:textStyle="bold"
+                       android:layout_gravity="center"
+                       android:gravity="center_horizontal"/>
+
+               </LinearLayout>
+
+               <View
+                   android:layout_width="wrap_content"
+                   android:layout_height="0.5dp"
+                   android:background="#cdcdcd"
+                   android:layout_marginTop="10dp"/>
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/apply"
+                   android:layout_gravity="end"
+                   android:text="APPLY"
+                   android:layout_marginTop="5dp"
+                   android:layout_marginBottom="5dp"
+                   android:layout_marginRight="10dp"
+                   android:textColor="@color/colorAccent"/>
+
+           </LinearLayout>
+
+       </androidx.cardview.widget.CardView>
+
+       <androidx.cardview.widget.CardView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           app:cardCornerRadius="3dp"
+           app:contentPadding="3dp"
+           app:cardBackgroundColor="#fff"
+           app:cardUseCompatPadding="true"
+           android:layout_marginTop="5dp">
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal">
+
+                   <ImageView
+                       android:layout_width="100dp"
+                       android:layout_height="100dp"
+                       android:src="@drawable/male"/>
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Get a personal loan easily"
+                       android:layout_marginLeft="10dp"
+                       android:textSize="20sp"
+                       android:textStyle="bold"
+                       android:layout_gravity="center"
+                       android:gravity="center_horizontal"/>
+
+               </LinearLayout>
+
+               <View
+                   android:layout_width="wrap_content"
+                   android:layout_height="0.5dp"
+                   android:background="#cdcdcd"
+                   android:layout_marginTop="10dp"/>
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="end"
+                   android:text="APPLY"
+                   android:layout_marginTop="5dp"
+                   android:layout_marginBottom="5dp"
+                   android:layout_marginRight="10dp"
+                   android:textColor="@color/colorAccent"/>
+
+           </LinearLayout>
+
+       </androidx.cardview.widget.CardView>
+
+</LinearLayout>
+
+</ScrollView>
